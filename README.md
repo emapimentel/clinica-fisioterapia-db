@@ -39,8 +39,8 @@ O banco contempla as seguintes entidades:
 
 ## 🚀 Como executar
 
-1. Importar o arquivo `schema.sql`
-2. Executar o arquivo `inserts.sql`
+1. Importar o arquivo database/schema.sql
+2. Executar o arquivo database/inserts.sql
 
 
 ## 📷 Modelo EER
