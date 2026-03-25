@@ -17,25 +17,31 @@ Simular um sistema real para gestão de pacientes, fisioterapeutas, sessões e p
 
 O banco contempla as seguintes entidades:
 
-* Paciente
-* Fisioterapeuta
-* Sessão
-* Procedimento
-* Telefone
-* Plano de Saúde
+- Paciente
+- Fisioterapeuta
+- Sessao
+- Procedimento
+- Telefone
+- Telefone_de_contato
+- Plano_Saude
+- Avaliacao
+- Exame
+- Horario_Fisioterapeuta
+  
+## 🔗 Exemplos de Relacionamentos
 
-## 🔗 Relacionamentos
+* Um paciente pode possuir múltiplas sessões
+* Um fisioterapeuta pode realizar várias sessões
+* Cada sessão está associada a um procedimento
+* Um paciente pode possuir múltiplos exames
+* Um fisioterapeuta possui horários definidos de atendimento
 
-* Paciente possui sessões
-* Fisioterapeuta realiza sessões
-* Procedimentos são vinculados às sessões
 
 ## 🚀 Como executar
 
 1. Importar o arquivo `schema.sql`
 2. Executar o arquivo `inserts.sql`
 
-## 📷 Modelo EER
 
 ## 📷 Modelo EER
 ![Modelo EER](model/modelo-eer.png)
