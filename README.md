@@ -37,10 +37,15 @@ O banco contempla as seguintes entidades:
 * Um fisioterapeuta possui horários definidos de atendimento
 
 
-## 🚀 Como executar
+📁 Arquivos do Projeto
+database/schema.sql → Script de criação do banco de dados
+database/inserts.sql → Script de inserção de dados
 
-1. Importar o arquivo database/schema.sql
-2. Executar o arquivo database/inserts.sql
+🚀 Como executar
+Executar o arquivo database/schema.sql
+Executar o arquivo database/inserts.sql
+
+⚠️ Recomendado executar em um banco vazio para evitar conflitos de chave primária.
 
 
 ## 📷 Modelo EER
