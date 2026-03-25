@@ -38,12 +38,14 @@ O banco contempla as seguintes entidades:
 
 
 📁 Arquivos do Projeto
-database/schema.sql → Script de criação do banco de dados
-database/inserts.sql → Script de inserção de dados
+
+- database/schema.sql → Script de criação do banco de dados
+- database/inserts.sql → Script de inserção de dados
 
 🚀 Como executar
-Executar o arquivo database/schema.sql
-Executar o arquivo database/inserts.sql
+
+- Executar o arquivo database/schema.sql
+- Executar o arquivo database/inserts.sql
 
 ⚠️ Recomendado executar em um banco vazio para evitar conflitos de chave primária.
 
