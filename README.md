@@ -37,7 +37,8 @@ O banco contempla as seguintes entidades:
 
 ## 📷 Modelo EER
 
-(Adicionar imagem aqui)
+## 📷 Modelo EER
+![Modelo EER](model/modelo-eer.png)
 
 ## 📈 Aprendizados
 
